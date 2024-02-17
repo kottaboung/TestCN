@@ -1,0 +1,242 @@
+
+@media only screen and (max-width:768px){
+  header{
+    height: auto;
+  }
+ 
+  .box6{
+    background-color: #0BB64C;
+    width: 500px;
+    max-width: 60%;
+    height: 75px;
+    border-radius:5px; 
+    border: none ; 
+    display: inline-block;
+  }
+  .cir{
+    background-color: #0E044B;
+    opacity: 40%;
+    border-radius: 100%;
+    width: 40px;
+    height: auto; 
+    padding: 10px;
+  }
+  
+  .img-container {
+    margin-top: 20px; /* Add margin top to image container */
+}
+  
+}
+@media only screen and (max-width: 600px){
+  
+  .box6{
+    background-color: #0BB64C;
+    width: 500px;
+    max-width: 100%;
+    height: 75px;
+    border-radius:5px; 
+    border: none ; 
+    display: inline-block;
+  }
+  .cir{
+    background-color: #0E044B;
+    opacity: 40%;
+    border-radius: 100%;
+    width: 20px;
+    height: auto; 
+   padding: 10px;
+  }
+  
+  
+}
+
+.img-container {
+  overflow: hidden; /* Hide overflow */
+  position: relative; /* Set position to relative */
+}
+
+.img-container img {
+  width: 100%; /* Set width to 100% */
+  height: auto; /* Maintain aspect ratio */
+  display: block; /* Ensure block-level display */
+}
+  
+
+.container img {
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    text-align: center;
+}
+.box {
+    background: linear-gradient(to bottom, #0B0F17, #0E044B);
+    border: 1px solid gray;
+    padding: 20px;
+    text-align: center;
+    color: white;
+    font-size: 12px;
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+    
+    }
+
+.rhombus-list {
+        list-style: none;
+        padding-top: 15px;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-bottom: 15px;
+      }
+      
+.rhombus-list li {
+        position: relative;
+        padding-left: 40px; 
+        margin-bottom: 10px; 
+        color: #333; 
+      }
+      
+.rhombus-list li::before {
+        content: "";
+        position: absolute;
+        left: 0;
+        top: 50%;
+        transform: translateY(-50%);
+        width: 20px; 
+        height: 20px; 
+        background-color: #25DF6C;
+        clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+      }
+      
+.rhombus-list li:nth-child(odd)::before {
+        background-color: #25DF6C; 
+      }
+      
+.bg{
+    background: #EEF7FF;
+    padding:20px;
+    
+    color: #0B0F17;
+    font-size: 12px;
+    
+}
+.bg2{
+  background-color: #EEF7FF;
+  padding: 20px;
+  border-radius: 15px;
+}
+
+.box2{
+  background-color: #25DF6C;
+  border-radius: 40px;
+  max-width: 100%;
+  width: fit-content;
+  padding: 5px;
+  grid-template-columns: repeat(auto-fit,1fr);
+}
+
+.box3{
+  background-color: #25DF6C;
+  border-radius: 40px;
+  max-width: 20%;
+  height: 45px;
+}
+
+.round-list {
+    list-style: none; 
+    padding: 0; 
+  }
+  
+  
+  .round-list li::before {
+    content: ""; 
+    display: inline-block;
+    width: 8px;
+    height: 40px; 
+    border-radius: 50px; 
+    background-color: #25DF6C; 
+    margin-right: 10px; 
+  }
+.ce{
+    background: linear-gradient(to right, #0E044B 0%, #2C309B 50%, #89E8FD 100%);
+    background-clip: text;
+    color: transparent;
+    white-space: nowrap;
+}
+
+.box4{
+  background: linear-gradient(to top right, #0C2192,#5D97E3);
+  padding: 20px;
+  border-radius: 20px;
+  
+}
+
+.box5{
+  background-color: #359EFF;
+  padding: 8px;
+  border-radius: 40px;
+  width: 300px;
+  max-width: fit-content;
+  height: auto;
+}
+
+.cir{
+  background-color: #0E044B;
+  opacity: 40%;
+  border-radius: 100%;
+  width: 75px;
+  height: auto; 
+ padding: 10px;
+}
+
+
+
+.bg3{
+  
+  
+  border-radius: 30px;
+  border: 5px solid transparent; 
+  border-image:linear-gradient(to top , #34EA67, #EFEFEF) 1;
+  
+}
+
+.box6{
+  background-color: #0BB64C;
+  width: 500px;
+  max-width: 40%;
+  height: 75px;
+  border-radius:5px; 
+  border: none ; 
+  display: inline-block;
+}
+.box6::before {
+  content: '';
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5); 
+  border-radius: 5px; 
+  transition: opacity 0.3s ease; 
+  opacity: 0; 
+}
+.button-container:hover .box6::before {
+  opacity: 1; 
+}
+
+.bg4{
+  background: linear-gradient(to top,#DEF3FF 3px,#FFFFFF 97px);
+  padding: 20px;
+  
+}
+
+.col5{
+  width: fit-content;
+  max-width: 50%;
+  height: auto;
+}
+
+.res1{
+  max-width: 100%;
+  height: auto;
+  border-radius: 15px;
+  
+}
